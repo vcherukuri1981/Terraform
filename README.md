@@ -1,17 +1,17 @@
 # Terraform
 
-## Folder Structure*
+## Folder Structure
 
 **Folder Contents**
 
-| Folder              | Description                                              |
-|---------------------|---------------------------------------------------------|
-| `for_Locals`        | Use For Loops in Locals. Try with Terraform Console.    |
-| `forWithLocals(IAM)`| IAM identities created using For with info from locals. |
+| Folder                   | Description                                                        |
+|--------------------------|--------------------------------------------------------------------|
+| `for_Locals`             | Use For Loops in Locals. Try with Terraform Console.               |
+| `forWithLocals(IAM)`     | IAM identities created using For with info from locals.            |
+| `count_foreach_for`      | Explain the differences for using count, foreach and for meta arguments. |
+| `DynamicBlocks_ForSGRules` | Use Dynamic Blocks for creating Security Group rules.             |
 
-
-
-### Git WorkFloW
+---
 
 ## Git Workflow: Check-in, Commit, Branch, and Merge
 
@@ -89,5 +89,5 @@ Follow these steps to check in code, commit, create a branch, and merge code int
     ```
 
 > **Note:**  
-> Replace `<repository-url>`, `<repository-folder>`, and `<new-branch-name>` with your actual values.
+> Replace `<repository-url>`, `<repository-folder>`, and `<new-branch-name>` with your actual values.  
 > For collaborative projects, consider creating a Pull Request (PR) on your Git hosting platform instead of merging locally.
