@@ -1,0 +1,30 @@
+group_policies = {
+  "architects-arn:aws:iam::aws:policy/AdministratorAccess" = {
+    "group" = "architects"
+    "policy" = "arn:aws:iam::aws:policy/AdministratorAccess"
+  }
+  "developers-arn:aws:iam::aws:policy/AWSCodeBuildDeveloperAccess" = {
+    "group" = "developers"
+    "policy" = "arn:aws:iam::aws:policy/AWSCodeBuildDeveloperAccess"
+  }
+  "developers-arn:aws:iam::aws:policy/PowerUserAccess" = {
+    "group" = "developers"
+    "policy" = "arn:aws:iam::aws:policy/PowerUserAccess"
+  }
+  "ops-arn:aws:iam::aws:policy/AWSCloudFormationReadOnlyAccess" = {
+    "group" = "ops"
+    "policy" = "arn:aws:iam::aws:policy/AWSCloudFormationReadOnlyAccess"
+  }
+  "ops-arn:aws:iam::aws:policy/ReadOnlyAccess" = {
+    "group" = "ops"
+    "policy" = "arn:aws:iam::aws:policy/ReadOnlyAccess"
+  }
+  "security-arn:aws:iam::aws:policy/AWSKeyManagementServicePowerUser" = {
+    "group" = "security"
+    "policy" = "arn:aws:iam::aws:policy/AWSKeyManagementServicePowerUser"
+  }
+  "security-arn:aws:iam::aws:policy/SecurityAudit" = {
+    "group" = "security"
+    "policy" = "arn:aws:iam::aws:policy/SecurityAudit"
+  }
+}
